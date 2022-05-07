@@ -1,0 +1,21 @@
+house:
+  name: 车库
+  year: 2001/12/01
+  container:
+    front: [{brand: 奔驰,price: 12000},{brand: 宝马,price: 13000}]
+    back:
+      - {brand: 悍马,price: 15000}
+      - {brand: 大G,price: 16000}
+spring:
+#  mvc:
+#    static-path-pattern: /page/**
+  web:
+    resources:
+      static-locations: classpath:/door
+  mvc:
+    hiddenmethod:
+      filter:
+        enabled: true # 开启表单提交rest风格
+    contentnegotiation:
+      favor-parameter: true # 开启请求参数内容协商
+#      add-mappings: false 禁用所有静态资源

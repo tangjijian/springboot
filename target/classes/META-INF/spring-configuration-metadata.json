@@ -1,0 +1,42 @@
+{
+  "groups": [
+    {
+      "name": "house",
+      "type": "tuanshang.bean.House",
+      "sourceType": "tuanshang.bean.House"
+    },
+    {
+      "name": "mycar",
+      "type": "tuanshang.bean.Car",
+      "sourceType": "tuanshang.bean.Car"
+    }
+  ],
+  "properties": [
+    {
+      "name": "house.container",
+      "type": "java.util.Map<java.lang.String,java.util.List<tuanshang.bean.Car>>",
+      "sourceType": "tuanshang.bean.House"
+    },
+    {
+      "name": "house.name",
+      "type": "java.lang.String",
+      "sourceType": "tuanshang.bean.House"
+    },
+    {
+      "name": "house.year",
+      "type": "java.lang.Object",
+      "sourceType": "tuanshang.bean.House"
+    },
+    {
+      "name": "mycar.brand",
+      "type": "java.lang.String",
+      "sourceType": "tuanshang.bean.Car"
+    },
+    {
+      "name": "mycar.price",
+      "type": "java.lang.String",
+      "sourceType": "tuanshang.bean.Car"
+    }
+  ],
+  "hints": []
+}
